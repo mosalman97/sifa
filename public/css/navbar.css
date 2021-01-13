@@ -1,0 +1,439 @@
+
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  list-style: none;
+  background-color: #c3741b;
+  border-radius: 0.25rem;
+  overflow: hidden;
+
+  margin-top: 10;
+  margin-left: 350px;
+margin-right: 350px;
+font-size: 30px;
+
+}
+#nav {
+    z-index: 9999;
+}
+.breadcrumb-item + .breadcrumb-item {
+  padding-left: 0.5rem;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  display: inline-block;
+  padding-right: 0.5rem;
+  color: #6c757d;
+  content: "/";
+}
+
+.breadcrumb-item + .breadcrumb-item:hover::before {
+  text-decoration: underline;
+}
+
+.breadcrumb-item + .breadcrumb-item:hover::before {
+  text-decoration: none;
+}
+
+
+.breadcrumb-item.active {
+  color: #eeeeee;
+}
+
+a {
+  color: #f7ece0;
+  text-decoration: none;
+  background-color: transparent;
+}
+.icon{
+  display: none;
+}
+.content {
+  padding: 16px;
+}
+.navColor{
+
+  background-color: #c3741b;
+  width: auto;
+}
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.activeNav{
+
+  /* font-style: oblique; */
+   font:small-caps bold 20px/60px Georgia, serif;
+   color: #333;
+   font-size: 30px;
+}
+@media only screen and (max-width: 200px) and (min-width: 50px)
+{
+  .breadcrumb {
+    display: inline-block;
+    /* flex-wrap: wrap; */
+    /* padding: 0.75rem 1rem;
+    margin-bottom: 1rem; */
+    list-style: none;
+    background-color: #c3741b;
+    /* border-radius: 0.25rem; */
+    overflow: hidden;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+    display:grid;
+  }
+  .navColor {
+      background-color: #c3741b;
+      width: 100%;
+      overflow: hidden;
+  }
+  .breadcrumb li a:not(:first-child) {display: none;}
+  .breadcrumb li a.icon {
+    /* float: right; */
+    display: block;
+    /* position: absolute; */
+    margin-top: 10;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .breadcrumb.responsive {position: relative;}
+  .breadcrumb.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .breadcrumb.responsive li a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .breadcrumb-item + .breadcrumb-item::before {
+    display: none;
+  }
+  ol.breadcrumb li+li:before {
+    display: none;
+  }
+  ol.breadcrumb li a {
+    display: none;
+  }
+
+
+}
+@media only screen and (max-width: 400px) and (min-width: 200px)
+{
+  .breadcrumb {
+    display: inline-block;
+    /* flex-wrap: wrap; */
+    /* padding: 0.75rem 1rem;
+    margin-bottom: 1rem; */
+    list-style: none;
+    background-color: #c3741b;
+    /* border-radius: 0.25rem; */
+    overflow: hidden;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+    display:grid;
+  }
+  .navColor {
+      background-color: #c3741b;
+      width: 100%;
+      overflow: hidden;
+  }
+  .breadcrumb li a:not(:first-child) {display: none;}
+  .breadcrumb li a.icon {
+    /* float: right; */
+    display: block;
+    /* position: absolute; */
+    margin-top: 10;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .breadcrumb.responsive {position: relative;}
+  .breadcrumb.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .breadcrumb.responsive li a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .breadcrumb-item + .breadcrumb-item::before {
+    display: none;
+  }
+  ol.breadcrumb li+li:before {
+    display: none;
+  }
+  ol.breadcrumb li a {
+    display: none;
+  }
+
+
+}
+@media only screen and (max-width: 600px) and (min-width: 400px)
+{
+  .breadcrumb {
+    display: inline-block;
+    /* flex-wrap: wrap; */
+    /* padding: 0.75rem 1rem;
+    margin-bottom: 1rem; */
+    list-style: none;
+    background-color: #c3741b;
+    /* border-radius: 0.25rem; */
+    overflow: hidden;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+    display:grid;
+  }
+  .navColor {
+      background-color: #c3741b;
+      width: 100%;
+      overflow: hidden;
+  }
+  .breadcrumb li a:not(:first-child) {display: none;}
+  .breadcrumb li a.icon {
+    /* float: right; */
+    display: block;
+    /* position: absolute; */
+    margin-top: 10;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .breadcrumb.responsive {position: relative;}
+  .breadcrumb.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .breadcrumb.responsive li a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .breadcrumb-item + .breadcrumb-item::before {
+    display: none;
+  }
+  ol.breadcrumb li+li:before {
+    display: none;
+  }
+  ol.breadcrumb li a {
+    display: none;
+  }
+
+}
+@media only screen and (max-width: 800px) and (min-width: 600px)
+{
+  .fa, .fas, .far, .fal, .fad, .fab {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    padding-right: 65px;
+    padding-top: 70px;
+}
+  .breadcrumb {
+    display: inline-block;
+      padding: 3.75rem 5rem;
+    list-style: none;
+    background-color: #c3741b;
+    /* border-radius: 0.25rem; */
+    overflow: hidden;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+    display:grid;
+  }
+  .navColor {
+      background-color: #c3741b;
+      width: 100%;
+      overflow: hidden;
+  }
+  .breadcrumb li a:not(:first-child) {display: none;}
+  .breadcrumb li a.icon {
+    /* float: right; */
+    display: block;
+    /* position: absolute; */
+    margin-top: 10;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .breadcrumb.responsive {position: relative;}
+  .breadcrumb.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .breadcrumb.responsive li a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .breadcrumb-item + .breadcrumb-item::before {
+    display: none;
+  }
+  ol.breadcrumb li+li:before {
+    display: none;
+  }
+  ol.breadcrumb li a {
+    display: none;
+  }
+
+}
+@media only screen and (max-width: 1000px) and (min-width: 800px)
+{
+  .breadcrumb {
+    display: inline-block;
+    /* flex-wrap: wrap; */
+    /* padding: 0.75rem 1rem;
+    margin-bottom: 1rem; */
+    list-style: none;
+    background-color: #c3741b;
+    /* border-radius: 0.25rem; */
+    overflow: hidden;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+    display:grid;
+  }
+  .navColor {
+      background-color: #c3741b;
+      width: 100%;
+      overflow: hidden;
+  }
+  .breadcrumb li a:not(:first-child) {display: none;}
+  .breadcrumb li a.icon {
+    /* float: right; */
+    display: block;
+    /* position: absolute; */
+    margin-top: 10;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+
+  .breadcrumb.responsive {position: relative;}
+  .breadcrumb.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .breadcrumb.responsive li a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .breadcrumb-item + .breadcrumb-item::before {
+    display: none;
+  }
+  ol.breadcrumb li+li:before {
+    display: none;
+  }
+  ol.breadcrumb li a {
+    display: none;
+  }
+  .row {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+}
+@media only screen and (max-width: 1200px) and (min-width: 1000px)
+{
+  .breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    list-style: none;
+    background-color: #c3741b;
+    border-radius: 0.25rem;
+    overflow: hidden;
+    margin-top: 10;
+    margin-left: 110px;
+    margin-right: 110px;
+    font-size: 18px;
+}
+
+}
+@media only screen and (max-width: 1400px) and (min-width: 1200px)
+{
+
+  .breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    list-style: none;
+    background-color: #c3741b;
+    border-radius: 0.25rem;
+    overflow: hidden;
+    margin-top: 10;
+    margin-left: 201px;
+    margin-right: 149px;
+    font-size: 18px;
+}
+
+}
+@media only screen and (max-width: 1600px) and (min-width: 1400px)
+{
+
+  .breadcrumb {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0.75rem 1rem;
+      margin-bottom: 1rem;
+      list-style: none;
+      background-color: #c3741b;
+      border-radius: 0.25rem;
+      overflow: hidden;
+      margin-top: 10;
+      margin-left: 248px;
+      margin-right: 200px;
+      font-size: 21px;
+  }
+
+}
+@media only screen and (max-width: 1800px) and (min-width: 1600px)
+{
+
+.breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    list-style: none;
+    background-color: #c3741b;
+    border-radius: 0.25rem;
+    overflow: hidden;
+    margin-top: 10;
+    margin-left: 350px;
+    margin-right: 200px;
+    font-size: 21px;
+}
+
+}

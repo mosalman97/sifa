@@ -1,0 +1,326 @@
+.footerMain {
+  padding-left: 25%;
+  padding-right: 25%;
+background-color: #000;
+  -webkit-background-size: 100% !important;
+
+  -moz-background-size: 100% !important;
+
+  -o-background-size: 100% !important;
+
+  background-size: 100% !important;
+}
+.footerHeader{
+  color: #c3741b;
+}
+p.footerP{
+  color:#f7ece0;
+}
+
+/* * {
+  box-sizing: border-box;
+} */
+
+/* Create four equal columns that floats next to each other */
+.columnFooter {
+  float: left;
+ width: 50%;
+ padding: 30px;
+ height: 500px; /* Should be removed. Only for demonstration */
+
+  background-color: #000;
+  color:#c3741b;
+  /* border-width:5px;
+    border-style:solid; */
+
+}
+
+/* Clear floats after the columns */
+.rowFooter:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media only screen and (max-width: 200px) and (min-width: 50px)
+{
+  .footerMain {
+      width: 100%;
+      padding: 25px;
+      background-color: #000;
+  }
+
+  .columnFooter {
+    width: 100%;
+    background-color: #000;
+  }
+  .columnFooter {
+    float: left;
+   width: 100%;
+   padding:1px;
+   height: auto; /* Should be removed. Only for demonstration */
+
+    background-color: #000;
+    color:#f7ece0;
+    /* border-width:5px;
+      border-style:solid; */
+
+  }
+  p.footerP{
+    color:#f7ece0;
+  }
+}
+@media only screen and (max-width: 400px) and (min-width: 200px)
+{
+  .footerMain {
+      width: 100%;
+      padding: 25px;
+      background-color: #000;
+  }
+
+  .columnFooter {
+    width: 100%;
+    background-color: #000;
+  }
+  .columnFooter {
+    float: left;
+   width: 100%;
+   padding:1px;
+   height: auto; /* Should be removed. Only for demonstration */
+
+    background-color: #000;
+    color:#f7ece0;
+    /* border-width:5px;
+      border-style:solid; */
+
+  }
+  p.footerP{
+    color:#f7ece0;
+  }
+}
+@media only screen and (max-width: 600px) and (min-width: 400px)
+{
+  .footerMain {
+      width: 100%;
+      padding: 25px;
+      background-color: #000;
+  }
+
+  .columnFooter {
+    width: 100%;
+    background-color: #000;
+  }
+  .columnFooter {
+    float: left;
+   width: 100%;
+   padding:1px;
+   height: auto; /* Should be removed. Only for demonstration */
+
+    background-color: #000;
+    color:#f7ece0;
+    /* border-width:5px;
+      border-style:solid; */
+
+  }
+  p.footerP{
+    color:#f7ece0;
+  }
+}
+@media only screen and (max-width: 800px) and (min-width: 600px)
+{
+  .footerMain {
+      width: 100%;
+      padding: 25px;
+      background-color: #000;
+  }
+
+  .columnFooter {
+    width: 100%;
+    background-color: #000;
+  }
+  .columnFooter {
+    float: left;
+   width: 100%;
+   padding:1px;
+   height: auto; /* Should be removed. Only for demonstration */
+
+    background-color: #000;
+    color:#f7ece0;
+    /* border-width:5px;
+      border-style:solid; */
+
+  }
+  p.footerP{
+    color:#f7ece0;
+  }
+  .social ul li a {
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top: -8px;
+    left: -5px;
+    width: 126px;
+    height: -44px;
+    line-height: 60px;
+}
+}
+@media only screen and (max-width: 1000px) and (min-width: 800px)
+{
+  .footerMain {
+      width: 100%;
+      padding: 25px;
+      background-color: #000;
+  }
+
+  .columnFooter {
+    width: 100%;
+    background-color: #000;
+  }
+  .columnFooter {
+    float: left;
+   width: 100%;
+   padding:1px;
+   height: auto; /* Should be removed. Only for demonstration */
+
+    background-color: #000;
+    color:#f7ece0;
+    /* border-width:5px;
+      border-style:solid; */
+
+  }
+  p.footerP{
+    color:#f7ece0;
+  }
+  .rowFooter{
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+  .social ul {
+    list-style: none;
+    padding-left: 9px;
+    padding-right: 0;
+    display: block;
+    float: left;
+}
+img.logoSifa {
+    border: 0;
+    width: 168px;
+    height: 185px;
+}
+}
+@media only screen and (max-width: 1200px) and (min-width: 1000px)
+{
+  .footerMain {
+      width: 100%;
+      padding: 25px;
+      background-color: #000;
+  }
+
+  .columnFooter {
+    width: 100%;
+    background-color: #000;
+  }
+  .columnFooter {
+    float: left;
+   width: 100%;
+   padding:1px;
+   height: auto; /* Should be removed. Only for demonstration */
+
+    background-color: #000;
+    color:#f7ece0;
+
+
+  }
+  p.footerP{
+    color:#f7ece0;
+  }
+  .rowFooter {
+    margin-left: 100px;
+    margin-right: 12px;
+}
+}
+@media only screen and (max-width: 1400px) and (min-width: 1200px)
+{
+  .footerMain {
+
+      width: 100%;
+      padding: 65px;
+      background-color: #000;
+      margin-left: 0px;
+  }
+
+  .columnFooter {
+    width: 100%;
+    background-color: #000;
+  }
+  .columnFooter {
+    float: left;
+   width: 100%;
+   padding:1px;
+   height: auto; /* Should be removed. Only for demonstration */
+
+    background-color: #000;
+    color:#f7ece0;
+
+
+  }
+  p.footerP{
+    color:#f7ece0;
+  }
+}
+@media only screen and (max-width: 1600px) and (min-width: 1400px)
+{
+  .footerMain {
+    width: 100%;
+    padding: 271px;
+    background-color: #000;
+}
+
+  .columnFooter {
+    width: 100%;
+    background-color: #000;
+  }
+  .columnFooter {
+    float: left;
+   width: 100%;
+   padding:1px;
+   height: auto; /* Should be removed. Only for demonstration */
+
+    background-color: #000;
+    color:#f7ece0;
+    /* border-width:5px;
+      border-style:solid; */
+
+  }
+  p.footerP{
+    color:#f7ece0;
+  }
+}
+@media only screen and (max-width: 1800px) and (min-width: 1600px)
+{
+  .footerMain {
+    width: 100%;
+    padding: 271px;
+    background-color: #000;
+}
+
+  .columnFooter {
+    width: 100%;
+    background-color: #000;
+  }
+  .columnFooter {
+    float: left;
+   width: 100%;
+   padding:1px;
+   height: auto; /* Should be removed. Only for demonstration */
+
+    background-color: #000;
+    color:#f7ece0;
+    /* border-width:5px;
+      border-style:solid; */
+
+  }
+  p.footerP{
+    color:#f7ece0;
+  }
+}

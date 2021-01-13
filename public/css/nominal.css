@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.formPagination {
+  display: inline-block;
+}
+
+.formPagination a {
+  color: #d81454;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 5px solid #ddd;
+  size:25px;
+}
+
+.formPagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+
+.formPagination a:hover:not(.active) {background-color: #ddd;}
+
+.pageNavButtonRight{
+  float: right;
+width: 16%;
+text-align: right;
+display: table-cell;
+vertical-align: middle;
+min-height: 50px;
+height: 100%;
+overflow: auto;
+
+}
+.pageNavButtonLeft{
+  float: left;
+width: 83%;
+display: table-cell;
+vertical-align: middle;
+min-height: 50px;
+margin-right: 10px;
+overflow: auto;
+}
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+/********************************/
+
+@media only screen and (max-width: 200px) and (min-width: 100px)
+{
+
+}
+@media only screen and (max-width: 300px) and (min-width: 200px)
+{
+
+
+}
+@media only screen and (max-width: 600px) and (min-width: 400px)
+{
+
+
+}
+@media only screen and (max-width: 800px) and (min-width: 600px)
+{
+
+
+}
+@media only screen and (max-width: 1000px) and (min-width: 800px)
+{
+
+}
+@media only screen and (max-width: 1200px) and (min-width: 1000px)
+{
+
+
+}
+@media only screen and (max-width: 1400px) and (min-width: 1200px)
+{
+
+
+}
+@media only screen and (max-width: 1600px) and (min-width: 1400px)
+{
+
+
+}
+@media only screen and (max-width: 1800px) and (min-width: 1600px)
+{
+
+
+}
