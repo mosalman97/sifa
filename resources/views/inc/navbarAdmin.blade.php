@@ -4,8 +4,8 @@
       <!-- <div id="navtop" class="col-xs-8"> -->
         <nav  aria-label="breadcrumb ">
           <ol class="breadcrumb"  id="myTopnav">
-            <li class="breadcrumb-item {{Request::is('contacts') ? 'activeNav' :''}}"><a href="/fameSouth/public/contacts">Contacts</a></li>
-            <li class="breadcrumb-item {{Request::is('nominations') ? 'activeNav' :''}}"><a href="/fameSouth/public/nominations">Nominations</a></li>
+            <li class="breadcrumb-item {{Request::is('contacts') ? 'activeNav' :''}}"><a href="/contacts">Contacts</a></li>
+            <li class="breadcrumb-item {{Request::is('nominations') ? 'activeNav' :''}}"><a href="/nominations">Nominations</a></li>
             <li><a href="javascript:void(0);" class="icon" onclick="menuResponsive()">
               <i class="fa fa-bars"></i>
             </a></li>

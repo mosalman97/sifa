@@ -60,7 +60,7 @@
 
                   </div>
                   <div class="col-75">
-                        {{Form::select('country', ['krl' => 'Kerla', 'tn' => 'Tamil Nadu','krn' => 'Karnataka'],$contact->country,array('required' => 'required', 'autofocus' => 'autofocus', 'disabled'))}}
+                        {{Form::select('country', ['krl' => 'Kerala', 'tn' => 'Tamil Nadu','krn' => 'Karnataka'],$contact->country,array('required' => 'required', 'autofocus' => 'autofocus', 'disabled'))}}
 
                   </div>
 
