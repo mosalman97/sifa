@@ -37,9 +37,9 @@
   padding: 8px;
 }
 
-#nomination tr:nth-child(even){background-color: #f2f2f2;}
+#nomination tr:nth-child(even){background-color: #000000;}
 
-#nomination tr:hover {background-color: #ddd;}
+#nomination tr:hover {background-color: #000000;}
 
 #nomination th {
   padding-top: 12px;

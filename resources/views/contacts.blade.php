@@ -16,7 +16,7 @@
   @if(count($contacts)>0)
   @foreach($contacts as $contact)
 
-  <tr  style="cursor: pointer;" >
+  <tr >
   <td><a href="edit/{{ $contact->id }}"><div class="myBox">{{$contact->id}}</div></a></td>
   <td><a href="edit/{{ $contact->id }}"><div class="myBox">{{$contact->firstname}}</div></a></td>
   <td><a href="edit/{{ $contact->id }}"><div class="myBox">{{$contact->country}}</div></a></td>
@@ -27,7 +27,8 @@
 @endif
 </table>
 @endsection
-<style media="screen">
+
+<style >
 #contact {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   border-collapse: collapse;
@@ -37,11 +38,18 @@
 #contact td, #contact th {
   border: 1px solid #ddd;
   padding: 8px;
+ 
 }
 
-#contact tr:nth-child(even){background-color: #f2f2f2;}
+#contact tr:nth-child(even){
+  background-color: #f2f2f2;
+  color: white;
+  }
 
-#contact tr:hover {background-color: #ddd;}
+#contact tr:hover {
+  background-color:#f2f2f2;
+  cursor: pointer;
+  }
 
 #contact th {
   padding-top: 12px;
@@ -49,5 +57,10 @@
   text-align: left;
   background-color: #4CAF50;
   color: white;
+}
+#contact a {
+    color: #111;
+    text-decoration: none;
+    background-color: transparent;
 }
 </style>

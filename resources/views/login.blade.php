@@ -36,8 +36,8 @@
         <!-- <label for="fname">First Name</label> -->
       </div>
       <div class="col-75">
-        
-         <input type="text" id="fname" name="firstname" placeholder="Your Name.."> 
+        <!-- {{Form::text('email', 'Your Email')}} -->
+        <input type="email" id="email" name="email" placeholder="Email..">
       </div>
     </div>
     <div class="row">
@@ -46,8 +46,8 @@
         <!-- <label for="lname">Last Name</label> -->
       </div>
       <div class="col-75">
-        
-         <input type="text" id="lname" name="lastname" placeholder="Your Password.."> 
+        <!-- {{Form::text('password', 'Your Password...')}} -->
+        <input type="password" id="password" name="password" placeholder="Your Password.">
       </div>
     </div>
 
